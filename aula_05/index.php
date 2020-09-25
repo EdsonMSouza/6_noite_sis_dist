@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset"UTF-8">
-    </meta>
-    <title>Exemplo de Chatbot</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de ChatBot</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -11,18 +11,19 @@
     <div class="container">
         <div class="chatbox">
             <div class="header">
-                <h4>ChatBot Tecnologia</h4><br>
-                <p>Faça uma pergunta do tipo: linux, php, dns, etc...</p>
+                <h4>ChatBot Tecnologia</h4>
+                <br>
+                <p>Faça perguntas como: linux; php; dns; etc.</p>
             </div>
-            <div class="body" id="chatbot">
+            <div class="body" id="chatbody">
                 <div class="scroller"></div>
             </div>
             <form class="chat" method="post" autocomplete="off">
                 <div>
-                    <input type="text" name="chat" placeholder="Mensagem...">
+                    <input type="text" name="chat" id="chat" placeholder="Mensagem...">
                 </div>
                 <div>
-                    <input type="submit" value="Perguntar" id="btn">
+                    <input type="submit" value="Enviar" id="btn">
                 </div>
             </form>
         </div>
